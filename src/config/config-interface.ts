@@ -1,9 +1,6 @@
 export interface IEnvSchema {
   PORT: number;
 
-  ACCESS_KEY: string;
-  WEBHOOK_KEY: string;
-
   DATABASE_HOST: string;
   DATABASE_PORT: number;
   DATABASE_USERNAME: string;
@@ -13,8 +10,6 @@ export interface IEnvSchema {
   DOCS_SERVER_URL: string;
   SWAGGER_PATH: string;
   REDOCLY_PATH: string;
-
-  JWT_SECRET: string;
 
   SWAPI_API: string;
 }
