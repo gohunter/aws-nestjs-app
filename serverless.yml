@@ -1,0 +1,15 @@
+service: serverless-aws-projects
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  api:
+    handler: dist/lambda.handler
+    events:
+      - httpApi: '*'
+
+plugins:
+  - serverless-offline
