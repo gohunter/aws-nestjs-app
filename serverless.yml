@@ -1,4 +1,4 @@
-service: serverless-aws-projects
+service: aws-nestjs-app
 frameworkVersion: '3'
 
 provider:

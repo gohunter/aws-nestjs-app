@@ -27,7 +27,10 @@ Crear una base de datos MySQL e importar el archivo *aws_nestjs_app.sql* a la ba
 
 Debe crear un archivo **.env** en el directorio principal apartir del archivo **.env.sample**
 
-Usar el comando NPM para instalar dependencias del proyecto: npm i
+Usar el comando NPM para instalar dependencias del proyecto:
+```
+npm i
+```
 
 ## Configuraciones necesarias del archivo .env
 
@@ -52,7 +55,11 @@ SWAPI_API="https://swapi.py4e.com/api/" # URL de API SWAPI
 
 ## Preparar build de nestjs
 
-Debe ejecutar el comando NPM: npm run build
+Ejecutar el comando NPM
+
+```
+npm run build
+```
 
 ## Ejecutar en local
 
